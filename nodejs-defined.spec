@@ -9,7 +9,7 @@
 
 Name:		%{?scl_prefix}nodejs-defined
 Version:	1.0.0
-Release:	3%{?dist}
+Release:	4%{?dist}
 Summary:	Return the first argument that is `!== undefined`
 Url:		https://github.com/substack/defined
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -55,6 +55,9 @@ tape test/*.js
 %license LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.0-4
+- rebuilt
+
 * Wed Aug 05 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.0-3
 - Fix ExclusiveArch
 
